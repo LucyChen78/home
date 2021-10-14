@@ -1,0 +1,42 @@
+/* By: Lucy Chen */
+
+body{
+  color: black;
+  font-family: "Mukta", Sans-serif;
+  background-color: #d4f4fa;
+  white-space: pre;
+}
+
+
+/* Everything below is for the sidebar */
+.sidenav {
+  height: 100%; /* Makes the sidebar the full height of the page */
+  width: 160px;
+  position: fixed; /* Sidebar stays in place when scrolling */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #7deffe;
+  overflow-x: hidden /* I'm not sure what this command does, but the example W3Schools gives uses this */
+  padding-top: 20px;
+}
+
+.main {
+  margin-left: 160px; /* Same as sidebar width */
+  padding: 0px 10px;
+}
+
+/* Styles the sidebar. */
+.sidenav a {
+  padding: 6px 8px 4px 22px;
+  text-decoration: none; /* This makes it so there is no underline on the links */
+  font-size: 29px;
+  font-family: "Mukta", Sans-serif;
+  color: #1089dc;
+  display: block;
+}
+
+/* Changes the color of the font when you hover over the sidebar */
+.sidenav a:hover {
+  color: #dbf1ff;
+}
