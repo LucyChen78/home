@@ -7,6 +7,14 @@ body{
   white-space: pre;
 }
 
+p{
+  font-size: 18px;
+}
+
+a{
+  color: #1089dc;
+}
+
 
 /* Everything below is for the sidebar */
 .sidenav {
@@ -17,7 +25,7 @@ body{
   top: 0;
   left: 0;
   background-color: #7deffe;
-  overflow-x: hidden /* I'm not sure what this command does, but the example W3Schools gives uses this */
+  overflow-x: hidden; /* I'm not sure what this command does, but the example W3Schools gives uses this */
   padding-top: 20px;
 }
 
@@ -31,6 +39,7 @@ body{
   padding: 6px 8px 4px 22px;
   text-decoration: none; /* This makes it so there is no underline on the links */
   font-size: 29px;
+  font-style: bold;
   font-family: "Mukta", Sans-serif;
   color: #1089dc;
   display: block;
