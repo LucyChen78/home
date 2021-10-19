@@ -38,7 +38,7 @@ a{
   padding: 6px 8px 4px 22px;
   text-decoration: none; /* This makes it so there is no underline on the links */
   font-size: 29px;
-  font-style: bold;
+  font-weight: bold;
   font-family: "Mukta", Sans-serif;
   color: #1089dc;
   display: block;
