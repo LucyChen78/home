@@ -2,21 +2,31 @@
 
 body{
   color: black;
-  font-family: "Mukta", Sans-serif;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
   background-color: #d4f4fa;
 }
 
 p{
-  font-size: 18px;
+  font-size: 17px;
 }
 
 a{
   color: #1089dc;
+  font-size: 18px;
 }
 
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 42px;
+}
+
+h2{
+  font-size: 28px;
+}
 
 /* Everything below is for the sidebar */
-.sidenav {
+.sidenav{
   height: 100%; /* Makes the sidebar the full height of the page */
   width: 160px;
   position: fixed; /* Sidebar stays in place when scrolling */
@@ -24,11 +34,11 @@ a{
   top: 0;
   left: 0;
   background-color: #7deffe;
-  overflow-x: hidden; /* I'm not sure what this command does, but the example W3Schools gives uses this */
+  overflow-x: hidden; 
   padding-top: 20px;
 }
 
-.main {
+.main{
   margin-left: 160px; /* Same as sidebar width */
   padding: 0px 10px;
 }
@@ -37,14 +47,25 @@ a{
 .sidenav a {
   padding: 6px 8px 4px 22px;
   text-decoration: none; /* This makes it so there is no underline on the links */
-  font-size: 29px;
+  font-size: 21px;
   font-weight: bold;
-  font-family: "Mukta", Sans-serif;
-  color: #1089dc;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #0955a4;
   display: block;
 }
 
 /* Changes the color of the font when you hover over the sidebar */
 .sidenav a:hover {
   color: #dbf1ff;
+}
+
+#recordmessage{
+  font-style: italic;
+}
+
+.bottomtext{
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #0955a4;
+  background-color: #7deffe;
 }
